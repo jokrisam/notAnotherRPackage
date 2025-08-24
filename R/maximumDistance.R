@@ -13,9 +13,8 @@
 #'
 #' @examples
 #' maximumDistance(1, 2)
-
-maximumDistance<-function(x,y){
+maximumDistance <- function(x, y) {
   checkmate::assertNumeric(x)
   checkmate::assertNumeric(y)
-  max(abs(x),abs(y))
+  max(abs(x), abs(y))
 }

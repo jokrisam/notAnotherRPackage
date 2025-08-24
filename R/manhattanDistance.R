@@ -13,9 +13,8 @@
 #'
 #' @examples
 #' manhattanDistance(1, 2)
-
-manhattanDistance<-function(x,y){
+manhattanDistance <- function(x, y) {
   checkmate::assertNumeric(x)
   checkmate::assertNumeric(y)
-  abs(x)+abs(y)
+  abs(x) + abs(y)
 }

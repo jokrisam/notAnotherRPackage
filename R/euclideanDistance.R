@@ -13,9 +13,8 @@
 #'
 #' @examples
 #' euclideanDistance(1, 2)
-
-euclideanDistance<-function(x,y){
+euclideanDistance <- function(x, y) {
   checkmate::assertNumeric(x)
   checkmate::assertNumeric(y)
-  sqrt(x^2+y^2)
+  sqrt(x^2 + y^2)
 }
