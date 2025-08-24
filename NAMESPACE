@@ -2,3 +2,5 @@
 
 export(euclideanDistance)
 export(manhattanDistance)
+export(maximumDistance)
+importFrom(checkmate,assertNumeric)

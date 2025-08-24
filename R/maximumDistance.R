@@ -1,6 +1,6 @@
-#' Manhattan distance function
+#' Maximum distance function
 #'
-#' This is my first function and it creates the Manhattan distance to the origin
+#' This is my first function and it creates the Maximum distance to the origin
 #' in two dimensions
 #'
 #' @param x x-axis entry
@@ -12,10 +12,10 @@
 #' @note This function is a bit boring but that is ok.
 #'
 #' @examples
-#' manhattanDistance(1, 2)
+#' maximumDistance(1, 2)
 
-manhattanDistance<-function(x,y){
+maximumDistance<-function(x,y){
   checkmate::assertNumeric(x)
   checkmate::assertNumeric(y)
-  abs(x)+abs(y)
+  max(abs(x),abs(y))
 }
