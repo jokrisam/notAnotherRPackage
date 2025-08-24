@@ -8,6 +8,13 @@
 \description{
 With this package, you will do some really interesting things.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://jokrisam.github.io/notAnotherRPackage/}
+}
+
+}
 \author{
 \strong{Maintainer}: Johannes Krisam \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
 
